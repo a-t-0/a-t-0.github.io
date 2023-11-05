@@ -4,7 +4,6 @@ layout: template
 filename: index.md
 --- 
 
-<!DOCTYPE html>
 <html lang="en">
   <body>
     {% include nav.html %}
