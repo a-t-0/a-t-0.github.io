@@ -1,7 +1,7 @@
 ---
-title: Features
+title: Index
 layout: template
-filename: Features.md
+filename: Index.md
 --- 
 
 <html lang="en">
