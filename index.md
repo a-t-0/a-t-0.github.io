@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Features
 layout: template
 filename: Index.md
 --- 
@@ -13,6 +13,7 @@ filename: Index.md
 
 # Features
 This is an overview of the current features of the product. It can parse and inject the LLM output directly into the code using the TUI. And the compliance checks can be used to ask the LLM automatically to improve its previous answer, based on the error messages, (until a satisfactory solution is found, or the number of retries is depleted). That saves the developer time going back and forth to the LLM on trivial matters or editing time, and improves preserving focus. 
+
 ## Functions
 
 <table>
@@ -173,6 +174,7 @@ This is an overview of the current features of the product. It can parse and inj
 </table>
 
 ## Files
+
 | Programming Language | File Docstring    |
 |----------------------|:------------------:
 | Python               | ❌                |
