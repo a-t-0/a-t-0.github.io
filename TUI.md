@@ -6,20 +6,6 @@ filename: TUI.md
 <html lang="en">
   <body>
     {% include nav.html %}
-    <script>
-  var video = document.getElementById("gif-video");
-
-  document.body.addEventListener("keyup", function(event) {
-    if (event.keyCode === 32) { // Spacebar keycode is 32
-      if (video.paused) {
-        video.play();
-      } else {
-        video.pause();
-      }
-    }
-  });
-</script>
-
     </body>
 </html>
 
@@ -34,3 +20,5 @@ Additional gif with controls:
   <source src="TUI_demo.gif" type="video/gif">
   Your browser does not support the video tag.
 </video>
+
+<script src="gif-controls.js"></script>
