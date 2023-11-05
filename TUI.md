@@ -55,7 +55,7 @@ again
 
 Another retry.
 <script type="text/javascript" src="./libgif.js"></script>
-<img src="./TUI_demo_preview.gif" rel:animated_src="./TUI_demo.gif"
+<img src="./TUI_demo.gif" rel:animated_src="./TUI_demo.gif"
  width="360" height="360" rel:auto_play="1" rel:rubbable="1" />
 
 <script type="text/javascript">
