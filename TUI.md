@@ -14,18 +14,9 @@ Below is a demo of the user interface that enables developers to quickly process
 
 ![alt-text-1](TUI_demo.gif "TUI")
 
-Additional gif with controls:
-<script type="text/javascript" src="./libgif.js"></script>
-<img src="./TUI_demo_preview.gif" rel:animated_src="./TUI_demo.gif" rel:auto_play="1" rel:rubbable="1" />
+First you see the original `example.py` file with incomplete function documentation for `def multiply_or_add()`. Then the TUI is called, and 2 LLM messages are inspected.
 
-<script type="text/javascript">
-    $$('img').each(function (img_tag) {
-        if (/.*\.gif/.test(img_tag.src)) {
-            var rub = new SuperGif({ gif: img_tag } );
-            rub.load(function(){
-                console.log('oh hey, now the gif is loaded');
-            });
-        }
-    });
-</script>
+- First the delta diff of the message docstring without the `x` argument is shown.
+- Next, the delta diff of the message with both function arguments is shown, and applied.
 
+Afterwards the updated file with the applied documentation suggestion is shown.
