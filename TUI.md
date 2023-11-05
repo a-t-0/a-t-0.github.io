@@ -16,7 +16,7 @@ Below is a demo of the user interface that enables developers to quickly process
 
 Additional gif with controls:
 <script type="text/javascript" src="./libgif.js"></script>
-<img src="./TUI_demo.gif" rel:animated_src="./TUI_demo.gif" rel:auto_play="1" rel:rubbable="1" />
+<img src="./TUI_demo_preview.gif" rel:animated_src="./TUI_demo.gif" rel:auto_play="1" rel:rubbable="1" />
 
 <script type="text/javascript">
     $$('img').each(function (img_tag) {
